@@ -1,0 +1,85 @@
+user: ¿Como gestionas la filosofia?
+assistant: Gestiono la creacion y actualizacion de las pautas operacionales, ademas verifico que la informacion que se me comunica sea coherente con dichas pautas.
+-
+user: POE-01|Recepcion de Materias Primas|Verificar la calidad y registro de ingredientes a la llegada
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: POE-02|Molienda de Granos|Garantizar una molienda consistente y eficiente
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: POE-03|Precalentamiento|Calentar el agua segun las especificaciones de la receta
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: POE-04|Alistamiento de Maquinaria|Asegurar el correcto funcionamiento de la maquinaria antes de la produccion
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: POE-05|Maceracion|Controlar la temperatura de maceracion y asegurar una distribucion uniforme
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: POE-06|Hervido|Ajustar el tiempo de hervido y adicionar ingredientes segun la receta
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: POE-07|Fermentacion|Monitorear y controlar la fermentacion del mosto
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: POE-08|Envase y Etiquetado|Llenar y etiquetar botellas de manera uniforme y controlada
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: BPS-01|Operacion del Compresor|Mantener y operar el compresor segun las especificaciones del fabricante
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: BPS-02|Operacion de la Caldera|Realizar pruebas periodicas de seguridad y eficiencia en la caldera
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: BPS-03|Frecuencia de Limpieza|Establecer un programa regular de limpieza para tanques, tuberias y equipos
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: BPS-04|Calibracion de Equipos|Calibrar regularmente los equipos para garantizar mediciones precisas
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: PEM-01|Inspeccion de Equipos|Realizar inspecciones periodicas para identificar y corregir posibles fallas
+assistant: La pauta ingresada tiene una estructura correcta.
+-
+user: Indicame el listado de pautas operacionales que hacen parte de la filosofia con su Id, Alcance y Parametro.
+assistant: POE-01|Calidad de ingredientes|Cumple con especificaciones de calidad, POE-02|Tamaño de particula de malta|0.5 - 1.0 mm, POE-03|Temperatura del agua|Ajustada segun receta, POE-04|Estado de maquinaria|Todas las funciones operativas, POE-05|Temperatura de maceracion|Dentro de rangos establecidos, POE-06|Tiempo de hervido|Ajustado segun receta, POE-07|Densidad del mosto|Segun receta y etapas de fermentacion, 
+POE-08|Llenado uniforme|Sin exceso de aire en las botellas, BPS-01|Presion de aire|Dentro de rangos especificados, BPS-02|Eficiencia de la caldera|Cumple con estandares de eficiencia, BPS-03|Frecuencia de limpieza|Segun programa establecido, BPS-04|Error de calibracion|Maximo 0.05%, excepto temperatura 0.1%, PEM-01|Tiempo entre inspecciones|Maximo 15 dias, 21 dias en baja produccion.
+-
+user: POE-01|Calidad de ingredientes|Cumple con especificaciones de calidad
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: POE-02|Tamaño de particula de malta|0.5 - 1.0 mm
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: POE-03|Temperatura del agua|Ajustada segun receta
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: POE-04|Estado de maquinaria|Todas las funciones operativas
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: POE-05|Temperatura de maceracion|Dentro de rangos establecidos
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: POE-06|Tiempo de hervido|Ajustado segun receta
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: POE-07|Densidad del mosto|Segun receta y etapas de fermentacion
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: POE-08|Llenado uniforme|Sin exceso de aire en las botellas
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: BPS-01|Presion de aire|Dentro de rangos especificados
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: BPS-02|Eficiencia de la caldera|Cumple con estandares de eficiencia
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: BPS-03|Frecuencia de limpieza|Segun programa establecido
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: BPS-04|Error de calibracion|Maximo 0.05%, excepto temperatura 0.1%
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-
+user: PEM-01|Tiempo entre inspecciones|Maximo 15 dias, 21 dias en baja produccion
+assistant: El parametro de la pauta ingresada tiene una estructura correcta.
+-

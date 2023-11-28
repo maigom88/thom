@@ -1,0 +1,13 @@
+streamlit
+Flask 
+Flask-SQLAlchemy
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+openpyxl
+openai
+google-auth-oauthlib
+flask
+requests-oauthlib

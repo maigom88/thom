@@ -1,0 +1,152 @@
+user: ¿Como gestionas la infrastructura?
+assistant: Gestiono el ingreso y salida de las maquinas, documento la funcion de cada maquina y la asignacion del TAG correcto.
+-
+user: Cual es equipo 1 de la infrastructura de la fabrica.
+assistant: VM1-01|Valvula manual hervidor / Ingreso de agua fria
+-
+user: Cual es equipo 2 de la infrastructura de la fabrica.
+assistant: VM1-02|Valvula manual hervidor / Ingreso de agua caliente
+-
+user: Cual es equipo 3 de la infrastructura de la fabrica.
+assistant: VM1-03|Valvula manual macerador / Salida de mosto
+-
+user: Cual es equipo 4 de la infrastructura de la fabrica.
+assistant: VM1-04|Valvula manual macerador / Salida de residuos
+-
+user: Cual es equipo 5 de la infrastructura de la fabrica.
+assistant: BC1-01|Bomba centrifuga mezcladora / Traspaso agua caliente a macerador
+-
+user: Cual es equipo 6 de la infrastructura de la fabrica.
+assistant: BC1-02|Bomba centrifuga mezcladora / Traspaso agua fria a macerador
+-
+user: Cual es equipo 7 de la infrastructura de la fabrica.
+assistant: BC1-03|Bomba centrífuga hervidor / Traspaso a fermentador
+-
+user: Cual es equipo 8 de la infrastructura de la fabrica.
+assistant: BC1-04|Bomba centrífuga fermentador / Traspaso a sistema de enfriamiento
+-
+user: Cual es equipo 9 de la infrastructura de la fabrica.
+assistant: BC1-05|Bomba centrífuga fermentador / Traspaso a sistema de enfriamiento
+-
+user: Cual es equipo 10 de la infrastructura de la fabrica.
+assistant: FC2-01|Fermentador conico 1 / Lote 1
+-
+user: Cual es equipo 11 de la infrastructura de la fabrica.
+assistant: FC2-02|Fermentador conico 1 / Lote 2
+-
+user: Cual es equipo 12 de la infrastructura de la fabrica.
+assistant: FC2-03|Fermentador conico 2 / Lote 1
+-
+user: Cual es equipo 13 de la infrastructura de la fabrica.
+assistant: FC2-04|Fermentador conico 2 / Lote 2
+-
+user: Cual es equipo 14 de la infrastructura de la fabrica.
+assistant: IC2-01|Intercambiador de calor / Enfriamiento del mosto
+-
+user: Cual es equipo 15 de la infrastructura de la fabrica.
+assistant: IC2-02|Intercambiador de calor / Enfriamiento del agua para maceracion
+-
+user: Cual es equipo 16 de la infrastructura de la fabrica.
+assistant: FS2-01|Sistema de filtracion / Filtrado de cerveza
+-
+user: Cual es equipo 17 de la infrastructura de la fabrica.
+assistant: FS2-02|Sistema de filtracion / Filtrado de agua de enjuague
+-
+user: Cual es equipo 18 de la infrastructura de la fabrica.
+assistant: EB2-01|Linea de envasado / Llenado de botellas lote 1
+-
+user: Cual es equipo 19 de la infrastructura de la fabrica.
+assistant: EB2-02|Linea de envasado / Llenado de botellas lote 2
+-
+user: Cual es equipo 20 de la infrastructura de la fabrica.
+assistant: No existe el equipo solicitado.
+-
+user: Cual es equipo 21 de la infrastructura de la fabrica.
+assistant: No existe el equipo solicitado.
+-
+user: Cual es equipo 22 de la infrastructura de la fabrica.
+assistant: No existe el equipo solicitado.
+-
+user: Cual es equipo 23 de la infrastructura de la fabrica.
+assistant: No existe el equipo solicitado.
+-
+user: Indicame el listado de equipos que hacen parte de la fabrica.
+assistant: VM1-01|Valvula manual hervidor / Ingreso de agua fría, VM1-02|Valvula manual hervidor / Ingreso de agua caliente, VM1-03|Valvula manual macerador / Salida de mosto, VM1-04|Valvula manual macerador / Salida de residuos, BC1-01|Bomba centrifuga mezcladora / Traspaso agua caliente a macerador, BC1-02|Bomba centrifuga mezcladora / Traspaso agua fria a macerador, BC1-03|Bomba centrifuga macerador / Traspaso a hervidor, BC1-04|Bomba centrifuga hervidor / Traspaso a fermentador, BC1-05|Bomba centrifuga fermentador / Traspaso a sistema de enfriamiento, FC2-01|Fermentador conico 1 / Lote 1, FC2-02|Fermentador conico 1 / Lote 2, FC2-03|Fermentador conico 2 / Lote 1, FC2-04|Fermentador conico 2 / Lote 2, IC2-01|Intercambiador de calor / Enfriamiento del mosto, IC2-02|Intercambiador de calor / Enfriamiento del agua para maceración, FS2-01|Sistema de filtracion / Filtrado de cerveza, FS2-02|Sistema de filtracion / Filtrado de agua de enjuague, EB2-01|Linea de envasado / Llenado de botellas lote, EB2-02|Linea de envasado / Llenado de botellas lote
+-
+user: Cual es la funcion del equipo 1 de la infrastructura de la fabrica
+assistant: VM1-01|Permite ingresar agua fria al hervidor
+-
+user: Cual es la funcion del equipo 2 de la infrastructura de la fabrica
+assistant: VM1-02|Permite ingresar agua caliente al hervidor
+-
+user: Cual es la funcion del equipo 3 de la infrastructura de la fabrica
+assistant: VM1-03|Permite que el mosto salga del macerador
+-
+user: Cual es la funcion del equipo 4 de la infrastructura de la fabrica
+assistant: VM1-04|Permite que los residuos salgan del macerador
+-
+user: Cual es la funcion del equipo 5 de la infrastructura de la fabrica
+assistant: BC1-01|Traslada el agua caliente del calentador al macerador
+-
+user: Cual es la funcion del equipo 6 de la infrastructura de la fabrica
+assistant: BC1-02|Traslada el agua fria del tanque de agua fria al macerador
+-
+user: Cual es la funcion del equipo 7 de la infrastructura de la fabrica
+assistant: BC1-03|Traslada el mosto del macerador al hervidor
+-
+user: Cual es la funcion del equipo 8 de la infrastructura de la fabrica
+assistant: BC1-04|Traslada el mosto caliente del hervidor al fermentador
+-
+user: Cual es la funcion del equipo 9 de la infrastructura de la fabrica
+assistant: BC1-05|Traslada el mosto frio del fermentador al sistema de enfriamiento
+-
+user: Cual es la funcion del equipo 10 de la infrastructura de la fabrica
+assistant: FC2-01|Fermenta el mosto del lote 1
+-
+user: Cual es la funcion del equipo 11 de la infrastructura de la fabrica
+assistant: FC2-02|Fermenta el mosto del lote 2
+-
+user: Cual es la funcion del equipo 12 de la infrastructura de la fabrica
+assistant: FC2-03|Fermenta el mosto del lote 1
+-
+user: Cual es la funcion del equipo 13 de la infrastructura de la fabrica
+assistant: FC2-04|Fermenta el mosto del lote 2
+-
+user: Cual es la funcion del equipo 14 de la infrastructura de la fabrica
+assistant: IC2-01|Enfria el mosto caliente del hervidor
+-
+user: Cual es la funcion del equipo 15 de la infrastructura de la fabrica
+assistant: IC2-02|Enfria el agua para maceracion
+-
+user: Cual es la funcion del equipo 16 de la infrastructura de la fabrica
+assistant: FS2-01|Filtra la cerveza para eliminar las impurezas
+-
+user: Cual es la funcion del equipo 17 de la infrastructura de la fabrica
+assistant: FS2-02|Filtra el agua de enjuague para eliminar las impurezas
+-
+user: Cual es la funcion del equipo 18 de la infrastructura de la fabrica
+assistant: EB2-01|Llena las botellas con la cerveza del lote 1
+-
+user: Cual es la funcion del equipo 19 de la infrastructura de la fabrica
+assistant: EB2-02|Llena las botellas con la cerveza del lote 2
+-
+user: Cual es la funcion del equipo 20 de la infrastructura de la fabrica
+assistant: No existe el equipos solicitado.
+-
+user: Cual es la funcion del equipo 21 de la infrastructura de la fabrica
+assistant: No existe el equipos solicitado.
+-
+user: Cual es la funcion del equipo 22 de la infrastructura de la fabrica
+assistant: No existe el equipos solicitado.
+-
+user: Cual es la funcion del equipo 23 de la infrastructura de la fabrica
+assistant: No existe el equipos solicitado.
+-
+user: Indicame la funcion de todos los equipos con su funcion en la fabricacion, recuerda que el 3 caracter del TAG indica la ubicacion.
+assistant: VM1-01|Permite ingresar agua fria al hervidor, VM1-02|Permite ingresar agua caliente al hervidor, VM1-03|Permite que el mosto salga del macerador, VM1-04|Permite que los residuos salgan del macerador, BC1-01|Traslada el agua caliente del calentador al macerador, BC1-02|Traslada el agua fria del tanque de agua fria al macerador,
+BC1-03|Traslada el mosto del macerador al hervidor, BC1-04|Traslada el mosto caliente del hervidor al fermentador, BC1-05|Traslada el mosto frio del fermentador al sistema de enfriamiento, FC2-01|Fermenta el mosto del lote 1, FC2-02|Fermenta el mosto del lote 2, FC2-03|Fermenta el mosto del lote 1, FC2-04|Fermenta el mosto del lote 2,
+IC2-01|Enfria el mosto caliente del hervidor, IC2-02|Enfria el agua para maceracion, FS2-01|Filtra la cerveza para eliminar las impurezas, FS2-02|Filtra el agua de enjuague para eliminar las impurezas, EB2-01|Llena las botellas con la cerveza del lote 1, EB2-02|Llena las botellas con la cerveza del lote 2.
+-
+user: Que significa el 3 caracter del TAG?
+assistant: Indica la ubicacion, 1 para Preparacion y 2 para Envase.
+-
