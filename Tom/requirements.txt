@@ -11,3 +11,14 @@ openai
 google-auth-oauthlib
 flask
 requests-oauthlib
+transcriber
+llm
+weather
+tts
+pc_command 
+dotenv
+SpeechRecognition
+PyAudio
+pydub
+tensorflow
+h5py
