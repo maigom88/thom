@@ -1,11 +1,10 @@
-'''
-visita https://www.evoacademy.cl/
-'''
+import os
 import openai
 import streamlit as st
 from streamlit import runtime
 runtime.exists()
 
+openai.api_key = os.getenv('OPENAI_API_KEY')
 avatar = {
     'user': 'lorelei',
     'assistant': 'pixel-art'
@@ -15,7 +14,7 @@ st.title("Chat con THOM 💬🫏")
 
 with st.sidebar:
     st.title('Configuraciones')
-    st.sidebar.info('THOM: https://www.evoacademy.cl/', icon='ℹ️')
+    st.sidebar.info('THOM:', icon='ℹ️')
     # if ('APIKEY' in st.secrets) and ('IDMODEL' in st.secrets):
     #     st.success('Credenciales secretas cargadas!', icon='✅')
     #     api_key = st.secrets['APIKEY']
@@ -23,7 +22,9 @@ with st.sidebar:
     
     # else:
     placeholder = st.empty()
-    api_key = st.text_input('API Key:', placeholder='Aquí tu API Key de OpenAI', type='password')
+    #api_key = st.text_input('API Key:', placeholder='Aquí tu API Key de OpenAI', type='password')
+    api_key = openai.api_key
+    #ft:gpt-3.5-turbo-0613:gtia:thom-beta2:8PME8AO5
     id_model = st.text_input('Id Modelo:', placeholder='Id de tu modelo de fine-tuning', type='password')
     with placeholder.container():
         if not (api_key and id_model):
